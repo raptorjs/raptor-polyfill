@@ -1,0 +1,8 @@
+{
+    "main": "JSON.js",
+    "raptor": {
+        "browser-dependencies": [
+            {"path": "JSON.js", "if": "!extensions.contains('no-es-json')" }
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "raptor-ecma",
+  "version": "0.1.0-SNAPSHOT",
+  "description": "Polyfills for EcmaScript",
+  "keywords": [
+    "EcmaScript",
+    "polyfill"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raptorjs3/raptor-ecma.git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --ui bdd --reporter spec  ./test"
+  },
+  "author": "Patrick Steele-Idem <psteeleidem@ebay.com>",
+  "maintainers": "Patrick Steele-Idem <psteeleidem@ebay.com>",
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "Apache License v2.0",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "index.js"
+}
