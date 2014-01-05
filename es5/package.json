@@ -1,8 +1,3 @@
 {
-    "main": "es5.js",
-    "raptor": {
-        "browser-dependencies": [
-            {"path": "es5.js", "if": "!extensions.contains('no-es5')" }
-        ]
-    }
+    "main": "es5.js"
 }
