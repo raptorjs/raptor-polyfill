@@ -1,6 +1,6 @@
 raptor-polyfil
 ===========
-Browser polyfills for various EcmaScript 5 and EcmaScript 6 methods distributed as CommonJS modules that can be require'd individually or as a whole. For use with your favorite CommonJS bundler (such as [raptor-optimizer](https://github.com/raptorjs3/raptor-optimizer)).
+Polyfills for various EcmaScript 5 and EcmaScript 6 methods distributed as CommonJS modules that can be require'd individually or as a whole. For use with your favorite CommonJS bundler (such as [raptor-optimizer](https://github.com/raptorjs3/raptor-optimizer)).
 
 # Usage
 
