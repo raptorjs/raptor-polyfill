@@ -1,17 +1,19 @@
 {
-  "name": "raptor-ecma",
+  "name": "raptor-polyfill",
   "version": "0.2.0-beta",
   "description": "Polyfills for EcmaScript",
   "keywords": [
     "EcmaScript",
-    "polyfill"
+    "polyfill",
+    "ES5",
+    "ES6"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/raptorjs3/raptor-ecma.git"
+    "url": "https://github.com/raptorjs3/raptor-polyfill.git"
   },
   "scripts": {
-    "test": "node_modules/.bin/jshint lib"
+    "test": "node_modules/.bin/jshint array/ date/ function/ json/ object/ string/ *.js"
   },
   "author": "Patrick Steele-Idem <pnidem@gmail.com>",
   "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
@@ -19,9 +21,9 @@
   "devDependencies": {
     "jshint": "~2.4.4"
   },
-  "license": "Apache License v2.0",
+  "license": "MIT",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "main": "index.js"
+  "main": "raptor-polyfill.js"
 }
