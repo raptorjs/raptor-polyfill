@@ -5,7 +5,7 @@
 if (!Array.prototype.forEach) {
     var toObject = require('./_toObject');
 
-    Array.prototype.forEach = function forEach(fun, thisObj) {
+    Array.prototype.forEach = function forEach(func, thisObj) {
         var self = toObject(this);
         var i = -1;
         var length = self.length >>> 0;
@@ -19,7 +19,7 @@ if (!Array.prototype.forEach) {
             if (i in self) {
                 // Invoke the callback function with call, passing arguments:
                 // context, property value, property key, thisArg object context
-                fun.call(thisObj, self[i], i, self);
+                func.call(thisObj, self[i], i, self);
             }
         }
     };

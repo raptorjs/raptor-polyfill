@@ -1,10 +1,10 @@
 {
     "predef": [
-        
+
     ],
 
-    "globals": { 
-        "define": true, 
+    "globals": {
+        "define": true,
         "require": true
     },
 
@@ -29,12 +29,11 @@
     "plusplus": false,
     "regexp": false,
     "undef": true,
-    "sub": false,
+    "sub": true,
     "white": false,
     "eqeqeq": false,
     "latedef": true,
     "unused": "vars",
-    
-    /* Relaxing options: */
+    "strict": false,
     "eqnull": true
 }
